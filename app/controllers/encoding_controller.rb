@@ -12,7 +12,7 @@ class EncodingController < ActionController::Base
 
   def really_bad
     ActiveRecord::ConnectionAdapters::SQLServerAdapter.use_output_inserted = false
-    Emoji.create!(text: "😄")
+    Emoji.create!(text: "😢")
     head status: 200
   end
 end

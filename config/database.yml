@@ -1,0 +1,7 @@
+development:
+  adapter: sqlserver
+  username: USERNAME
+  password: PASSWORD
+  host: HOST
+  encoding: utf8
+  database: DATABASE
